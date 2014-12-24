@@ -4,18 +4,22 @@ essw
 ESSW stands for extreme-simple-static-webserver. A simple static webserver to be used for testing static sites. 
 
 
-RUN
+Usage
 ===
 
+from source:
 ```
 go run main.go
 ```
 
-PARAMETERS
+from release:
+```
+./essw
+```
+
+Parameters
 ====
+* port: the port the server needs to listen on, defaults to 8080
+* path: the path containing the static files, defaults to .
 
-* port (8080) 
-* path (.)
-
-or download the release.
 
